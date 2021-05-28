@@ -2,13 +2,13 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Mm]emoryCaptures/
+Source-Code/Nutty Nightmare/[Ll]ibrary/
+Source-Code/Nutty Nightmare/[Tt]emp/
+Source-Code/Nutty Nightmare/[Oo]bj/
+Source-Code/Nutty Nightmare/[Bb]uild/
+Source-Code/Nutty Nightmare/[Bb]uilds/
+Source-Code/Nutty Nightmare/[Ll]ogs/
+Source-Code/Nutty Nightmare/[Mm]emoryCaptures/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
@@ -20,7 +20,7 @@
 [Aa]ssets/Plugins/Editor/JetBrains*
 
 # Visual Studio cache directory
-.vs/
+Source-Code/Nutty Nightmare/.vs/
 
 # Gradle cache directory
 .gradle/
@@ -54,6 +54,8 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+UnityPlayer.dll
+Nutty Nightmare.exe
 
 # Crashlytics generated file
 crashlytics-build.properties
